@@ -48,6 +48,9 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^8.41.0",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.8"
   }
 }

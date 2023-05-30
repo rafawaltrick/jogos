@@ -1,7 +1,7 @@
 import { Provider } from "./contexts";
 import Main from "./pages/Main";
 
-    function App() {
+function App() {
   return (
     <Provider>
       <Main />

@@ -20,7 +20,7 @@ function Main() {
 
 export default Main;
 
-const BodySld = styled.div`
+const Bod ySld = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;

@@ -8,7 +8,7 @@ export function Left(){
   console.log(matches)
     return(
       <WrapperSld>
-        <H4Sld>PARTIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAS {team ? `- ${team.name}` : ''}</H4Sld>
+        <H4Sld>PARTIDAS {team ? `- ${team.name}` : ''}</H4Sld>
 
         <UlSld>
           {matches.map(m => (

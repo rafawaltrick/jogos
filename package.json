@@ -28,7 +28,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prepare": "npx husky install"
+    "prepare": "npx husky install",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "precommit": "lint-staged"
   },
   "eslintConfig": {
     "extends": [

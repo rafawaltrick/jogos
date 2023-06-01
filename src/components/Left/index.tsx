@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { useContexto } from '../../hooks';
 import { H4Sld, UlSld } from '../../styles/components';
 import { Match } from '../Match';
+import React from 'react';
 
 
 export function Left() {

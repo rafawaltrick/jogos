@@ -9,7 +9,7 @@ export function Left() {
   console.log(matches);
   return (
     <WrapperSld>
-             <H4Sld>PARTIDAS {team ? `- ${team.name}` : ''}</H4Sld>
+      <H4Sld>PARTIDAS {team ? `- ${team.name}` : ''}</H4Sld>
       <UlSld>
         {matches.map(m => (
           <LiSld key={m.id}>
@@ -24,7 +24,7 @@ export function Left() {
 export const WrapperSld = styled.div`
   width: 60%;
   background-color: ${props => props.theme.main};
-  color: ${props => props.theme.text};
+  color: ${props => props.theme.text}
   display: flex;
   text-align: center;
   flex-direction: column;

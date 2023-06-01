@@ -18,7 +18,12 @@
     "plugins": ["@typescript-eslint", "react"],
     "rules": {
         "react/prop-types": "off", // Desabilitar verificação de prop-types
-        "@typescript-eslint/explicit-module-boundary-types": "off" // Desabilitar verificação de tipos explícitos em funções
+        "@typescript-eslint/explicit-module-boundary-types": "off", // Desabilitar verificação de tipos explícitos em funções
+        "no-unused-vars": "warn",
+        "no-console": "warn",
+        "indent": ["error", 2],
+        "quotes": ["error", "single"],
+        "semi": ["error", "always"]
     }
   }
   

@@ -1,20 +1,19 @@
-import styled from "styled-components";
-import { Left } from "../../components/Left";
-import { Right } from "../../components/Right";
-import { Header } from "../../components/Header";
-import { SwitchTheme } from "../../components/SwitchTheme";
+import styled from 'styled-components';
+import { Left } from '../../components/Left';
+import { Right } from '../../components/Right';
+import { Header } from '../../components/Header';
+import { SwitchTheme } from '../../components/SwitchTheme';
 import React from 'react';
-
 
 function Main() {
   return (
     <BodySld>
-      <Header/>
+      <Header />
       <WrapperSld>
-        <Left/>
-        <Right/>
+        <Left />
+        <Right />
       </WrapperSld>
-      <SwitchTheme/>
+      <SwitchTheme />
     </BodySld>
   );
 }
@@ -28,9 +27,8 @@ const BodySld = styled.div`
   height: 100vh;
   align-items: center;
   box-sizing: border-box;
-  background-color: ${(props => props.theme.background)};
+  background-color: ${(props) => props.theme.background};
   @media (max-width: 800px) {
-    
   }
 `;
 
@@ -39,11 +37,11 @@ const WrapperSld = styled.div`
   flex-direction: row;
   box-sizing: border-box;
   margin: 1.4rem;
-  flex:1;
+  flex: 1;
   width: calc(100% - 2.8rem);
-  
+
   @media (max-width: 800px) {
     width: 100%;
     flex-direction: column;
   }
-`
+`;

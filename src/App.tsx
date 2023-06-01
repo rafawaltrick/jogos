@@ -1,5 +1,5 @@
-import { Provider } from "./contexts";
-import Main from "./pages/Main";
+import { Provider } from './contexts';
+import Main from './pages/Main';
 import React from 'react';
 
 function App() {

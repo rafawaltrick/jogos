@@ -1,9 +1,9 @@
-import { createContext, useEffect, useState } from "react";
-import { TeamProps, MatchProps, ContextProps, ThemeProps } from "../types";
-import Team from "../services/Team";
-import Match from "../services/Match";
-import { dark, light } from "../styles/theme";
-import { ThemeProvider } from "styled-components";
+import { createContext, useEffect, useState } from 'react';
+import { TeamProps, MatchProps, ContextProps, ThemeProps } from '../types';
+import Team from '../services/Team';
+import Match from '../services/Match';
+import { dark, light } from '../styles/theme';
+import { ThemeProvider } from 'styled-components';
 import React from 'react';
 
 const Contexto = createContext({} as ContextProps);
@@ -18,7 +18,7 @@ function Provider({ children }: any) {
     (async () => {
       const teamReq: TeamProps[] = await Team.get();
       setTeams(teamReq);
-      console.log(teamReq)
+      console.log(teamReq);
     })();
   }, []);
 

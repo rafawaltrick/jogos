@@ -3,6 +3,7 @@ import { Left } from "../../components/Left";
 import { Right } from "../../components/Right";
 import { Header } from "../../components/Header";
 import { SwitchTheme } from "../../components/SwitchTheme";
+import React from 'react';
 
 
 function Main() {

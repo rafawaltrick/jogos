@@ -1,5 +1,6 @@
 import api from "./api";
 import { MatchProps } from "../types";
+import React from 'react';
 
 class Match {
   async get(): Promise<MatchProps[]> {

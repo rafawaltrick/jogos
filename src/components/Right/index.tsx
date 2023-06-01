@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import { useContexto } from "../../hooks";
 import { H4Sld, UlSld } from "../../styles/components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheck, faSquareCheck } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck, faSquareCheck } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 
 
 export function Right(){

@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import React from 'react';
 
 export function Match({host, visitor, date}:{host:string, visitor:string, date:string}){
     const formatDate = (data:string) => {

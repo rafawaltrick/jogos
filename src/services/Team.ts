@@ -1,5 +1,6 @@
 import api from "./api";
 import { TeamProps } from "../types";
+import React from 'react';
 
 class Team {
   async get(): Promise<TeamProps[]> {

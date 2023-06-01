@@ -4,6 +4,7 @@ import Team from "../services/Team";
 import Match from "../services/Match";
 import { dark, light } from "../styles/theme";
 import { ThemeProvider } from "styled-components";
+import React from 'react';
 
 const Contexto = createContext({} as ContextProps);
 

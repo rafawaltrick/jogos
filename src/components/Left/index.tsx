@@ -23,8 +23,8 @@ export function Left() {
 
 export const WrapperSld = styled.div`
   width: 60%;
-  background-color: ${props => props.theme.main}
-  color: ${props => props.theme.text}
+  background-color: ${props => props.theme.main};
+  color: ${props => props.theme.text};
   display: flex;
   text-align: center;
   flex-direction: column;
